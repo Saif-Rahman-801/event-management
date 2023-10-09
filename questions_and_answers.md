@@ -15,12 +15,14 @@ console.log(greetign);
 - B: `ReferenceError: greetign is not defined`
 - C: `undefined`
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Answer: A: `{}` </b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A: `{}`
 
-<i>Write your explanation here</i>
+<i>Write your explanation 
+When greetign is declared JavaScript Assigned empty value to it, that's why console.log(greetign) prints empty object
+</i>
 
 </p>
 </details>
@@ -40,12 +42,14 @@ sum(1, "2");
 - C: `"12"`
 - D: `3`
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Answer: C: `"12"`</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C: `"12"`
 
-<i>Write your explanation here</i>
+<i>Write your explanation here
+We know when a string and number is additioned, they concatinate, in here we can see a is a number value and b is a string, so they concatinated, Ans is "12"
+</i>
 
 </p>
 </details>
@@ -66,12 +70,14 @@ console.log(food);
 - C: `['🍝', '🍕', '🍫', '🥑', '🍔']`
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Answer: A: `['🍕', '🍫', '🥑', '🍔']`</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A: `['🍕', '🍫', '🥑', '🍔']`
 
-<i>Write your explanation here</i>
+<i>Write your explanation here
+In here we can see a food array is declared, and a info object is created, the 1st property of info is the 0 index of array, but this is changed in the next line, the object is changed. The array remained constant; so it's not changed; That's why the Ans is A: `['🍕', '🍫', '🥑', '🍔']`
+</i>
 
 </p>
 </details>
@@ -91,12 +97,14 @@ console.log(sayHi());
 - C: `Hi there, null`
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Answer B: `Hi there, undefined`</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B: `Hi there, undefined`
 
-<i>Write your explanation here</i>
+<i>Write your explanation here
+The ans will be B: `Hi there, undefined`, in this code, The name parameter is taken but it's not defined in the envocation, that's why the ans is B: `Hi there, undefined`
+</i>
 
 </p>
 </details>
@@ -119,12 +127,14 @@ console.log(count);
 - C: 3
 - D: 4
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Answer: C: 3</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C: 3
 
-<i>Write your explanation here</i>
+<i>Write your explanation here
+In this code we can see if the num is true count will increase by 1, in the array we can see there are 4 elements, 1 element is 0, it's a falsy value, so in the condition num will be false condition won't be executed, for the other 3 elements, condition will be true, so the count will increase by 1 each time with the previous value, for 1 count = 1; for 2 count = 1 + 1 = 2, for 3 count = 2 + 1 = 3. So the ans will be C: 3
+</i>
 
 </p>
 </details>
